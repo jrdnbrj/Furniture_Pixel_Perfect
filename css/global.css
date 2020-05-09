@@ -1,3 +1,4 @@
+/***********HEADER***********/
 .header{
     background-color: aquamarine;
     height: 157px;
@@ -50,7 +51,7 @@
     width: 130px;
     border: 2px solid black;
     border-radius: 4px;
-    padding: 5px 16px;
+    padding: 5px 15px;
 }
 .header2 table tr th a{
     font-size: 13px;
@@ -60,18 +61,192 @@
     display: inline-block;
     margin-bottom: 3px;
 }
+.header3{
+    height: 50px;
+    width: max-content;
+    padding-top: 11px;
+}
 .header3 ul{
-    margin: 0 auto;
     text-decoration: none;
     list-style-type: none;
+    padding-left: 0px;
 }
 .header3 ul li{
-    margin: 10px 10px 10px 0px;
-    padding: 10px 15px 0px 0px;
-    float: left;
+    margin: 10px 27px 10px 0px;
+    display: inline;
 }
 .header3 ul li a{
     text-decoration: none;
     font-size: 20px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman', Times, serif;
 }
+
+/***********MAIN***********/
+.main{
+    height: 1900px;
+    width: 1170px;
+    margin-left:  365px;
+    background-color: #e0e0e0;
+}
+.breadcrumb{
+    padding: 23px 1px;
+
+}
+.breadcrumb a{
+    color: black;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.left{
+    height: 1416px;
+    width: 270px;
+    background-color: white;
+    float: left;
+}
+
+.left .left-1{
+    height: 303px;
+    width: 235px;
+    border-bottom: 1px solid lightslategrey;
+    padding: 30px 0px 0px 35px;
+    color: black;
+}
+.left-1 span{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+#search{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+.left-1 img{
+    display: block;
+    padding-top: 26px;
+    padding-left: 4px;
+    padding-bottom: 43px;
+}
+#categoryes{
+    font-size: 14px;
+    padding-left: 4px;
+}
+.left-1 ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 11px;
+    padding-left: 4px;
+}
+.left-1 ul li{
+    padding-bottom: 5px;
+}
+.left-1 ul li a{
+    font-size: 17px;
+}
+.left-2{
+    padding: 48px 40px 20px 40px;
+    border-bottom: 1px solid lightslategrey;
+}
+.left-2 span{
+    font-size: 15px;
+}
+.featured{
+    padding-top: 16px;
+    padding-bottom: 38px;
+}
+.featured img{
+    float: left;
+}
+.featured .featured-text{
+    font-size: 13px;
+    padding-left: 74px;
+}
+.featured .comment{
+    padding-top: 14px;
+}
+
+.left-3{
+    padding: 58px 0px 52px 40px;
+    border-bottom: 1px solid lightslategrey;
+}
+.left-3 span{
+    font-size: 15px;
+}
+.featured-2{
+    padding-top: 27px;
+    padding-left: 3px;
+    padding-bottom: 4px;
+}
+.featured-2 img{
+    float: left;
+}
+.featured-2 .featured-text{
+    font-size: 13px;
+    padding-left: 70px;
+}
+.featured-text aside{
+    font-size: 11px;
+}
+.featured-text .autor{
+    padding-top: 8px;
+}
+.featured-text .date{
+    color: #e1e1e1;
+}
+.left-4{
+    height: 220px;
+}
+.left-4 .archives{
+    padding: 50px 0px 20px 40px;
+    font-size: 14px;
+}
+.left-4 .archives .title{
+    padding-bottom: 23px;
+}
+.left-4 .archives .month{
+    font-size: 16px;
+    padding-top: 2px;
+    padding-bottom: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right{
+    height: 1740px;
+    width: 872px;
+    margin-left: 28px;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+}
+
+.right .right-1{
+    height: 610px;
+    width: 872px;
+}
+.right .right-2{
+    height: 516px;
+    width: 872px;
+    margin-top: 54px;
+}
+.right .right-3{
+    height: 520px;
+    width: 872px;
+    margin-top: 39px;
+}
+/***********FOOTER***********/
