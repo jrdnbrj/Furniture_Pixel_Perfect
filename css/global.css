@@ -1,0 +1,77 @@
+.header{
+    background-color: aquamarine;
+    height: 157px;
+    width: 1170px;
+    margin-left:  365px;
+    padding-top: 2px;
+}
+.header1 .social_div{
+    display: inline;
+}
+.header1 .social_div .social{
+    margin-right: 15px;
+}
+.header1 .call{
+    margin-left: 25px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+.header1 .right-top{
+    display: inline;
+    float: right;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 7px;
+    padding-top: 2px;
+}
+.header1 .right-top a{
+    padding-left: 27px;
+}
+.header1 .right-top a img{
+    margin-right: 10px;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+#img1{
+    margin: 15px 128px 0px 0px;
+}
+#img2{
+    margin: 15px 20px 0px 0px;
+}
+.header2 table{
+    display: inline-block;
+    margin: 0px 30px 20px 32px;
+    margin-bottom: 1px;
+}
+.header2 table tr th{
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px 16px;
+}
+.header2 table tr th a{
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#img3 {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+.header3 ul{
+    margin: 0 auto;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header3 ul li{
+    margin: 10px 10px 10px 0px;
+    padding: 10px 15px 0px 0px;
+    float: left;
+}
+.header3 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
