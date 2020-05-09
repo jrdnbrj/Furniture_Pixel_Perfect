@@ -510,7 +510,117 @@
 /***********FOOTER***********/
 .footer{
     margin-left: 365px;
-    height: 535px;
+    height: 450px;
     width: 1170px;
     background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.newsletter{
+    height: 350px;
+    width: 350px;
+    float: left;
+}
+.newsletter .nl-text{
+    padding-top: 118px;
+    padding-left: 3px;
+}
+.newsletter .newest{
+    padding-top: 2px;
+    padding-left: 3px;
+}
+.newsletter input{
+    margin-top: 22px;
+    margin-left: 3px;
+    padding: 11px 58px 11px 10px;
+    border-radius: 3px;
+}
+.newsletter button{
+    margin-top: 6px;
+    margin-left: 3px;
+    padding: 13px 30px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: gold;
+}
+.customer{
+    height: 350px;
+    width: 210px;
+    float: left;
+}
+.customer .c-title{
+    padding-top: 118px;
+    padding-left: 45px;
+    padding-bottom: 15px;
+}
+.customer ul li{
+    list-style-type: none;
+    padding-bottom: 13px;
+}
+.customer ul a{
+    text-decoration: none;
+    color: white;
+}
+.company{
+    height: 350px;
+    width: 210px;
+    float: left;
+}
+.company .co-title{
+    padding-top: 118px;
+    padding-left: 45px;
+    padding-bottom: 15px;
+}
+.company ul li{
+    list-style-type: none;
+    padding-bottom: 13px;
+}
+.company ul a{
+    text-decoration: none;
+    color: white;
+}
+.feedback{
+    height: 350px;
+    width: 210px;
+    float: left;
+}
+.feedback .f-title{
+    padding-top: 118px;
+    padding-left: 45px;
+    padding-bottom: 15px;
+}
+.feedback ul li{
+    list-style-type: none;
+    padding-bottom: 13px;
+}
+.feedback ul a{
+    text-decoration: none;
+    color: white;
+}
+.follow{
+    height: 350px;
+    width: 190px;
+    float: left;
+}
+.follow .fu-title{
+    padding-top: 118px;
+    padding-left: 45px;
+    padding-bottom: 15px;
+}
+.follow ul li{
+    list-style-type: none;
+    padding-bottom: 13px;
+}
+.follow ul a{
+    text-decoration: none;
+    color: white;
+}
+.follow ul li a img{
+    padding-right: 25px;
+}
+.terms{
+    margin-top: 80px;
+    padding-left: 450px;
+    width: 280px;
 }
