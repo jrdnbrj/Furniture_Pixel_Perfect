@@ -335,42 +335,182 @@
     background-color: white;
 }
 .review{
-    padding: 51px 0px 0px 40px;
+    height: 100px;
+    width: 872px;
+    margin-left: 48px;
+    padding-bottom: 13px;
+    border-bottom: 1px solid #e1e1e1;
 }
-.review #review-title{
-    float: left;
+#review-title{
+    padding-top: 51px;
+    margin-left: 42px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    display: block;
 }
-.circle_gray{
+.review .circle_gray{
     height: 65px;
     width: 65px;
+    margin-top: 25px;
     border: none;
     border-radius: 50%;
     background-color: gray;
     float: left;
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: 9px;
 }
 .review .review-text{
-    padding-top: 10px;
-    padding-left: 100px;
-    float: left;
+    padding-top: 29px;
+    padding-left: 93px;
+    height: max-content;
+    width: max-content;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+.review-text span{
+    color: #c1c1c1;
+}
+.review-text span strong{
+    color: black;
+    font-size: 17px;
+}
+.review-text img{
+    float: right;
+}
+.reviews #circle-plus{
+    padding-left: 420px;
+    padding-top: 5px;
+    margin-block-start: 0px;
+}
+.reviews #write-review{
+    padding-left: 140px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 .right .right-3{
     height: 520px;
     width: 872px;
     margin-top: 39px;
 }
+.featured-products{
+    height: 53px;
+    width: 872px;
+    font-size: 26.5px;
+}
+.product-1{
+    height: 470px;
+    width: 256px;
+    float: left;
+    display: inline;
+    margin-right: 17px;
+    background-color: white;
+}
+.product-1 .p1-img{
+    margin-top: 13px;
+    margin-left: 16px;
+}
+.product-1 .p1-title{
+    padding-top: 44px;
+    padding-left: 28px;
+}
+.product-1 .p1-text{
+    width: 195px;
+    padding-top: 17px;
+    padding-left: 30px;
+    font-size: 13px;
+    color: #909090;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product-1 .p1-price{
+    padding-top: 24px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.product-1 .p1-actions{
+    float: right;
+    padding-top: 9px;
+    padding-right: 13px;
+}
+.product-2{
+    height: 470px;
+    width: 256px;
+    float: left;
+    margin-right: 15px;
+    background-color: white;
+}
+.product-2 .p2-img{
+    margin-top: 13px;
+    margin-left: 50px;
+}
+.product-2 .p2-title{
+    padding-top: 44px;
+    padding-left: 28px;
+}
+.product-2 .p2-text{
+    width: 195px;
+    padding-top: 17px;
+    padding-left: 30px;
+    font-size: 13px;
+    color: #909090;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product-2 .p2-price{
+    padding-top: 24px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.product-2 .p2-actions{
+    float: right;
+    padding-top: 5px;
+    padding-right: 16px;
+}
+.product-3{
+    height: 470px;
+    width: 256px;
+    float: left;
+    margin-right: 17px;
+    background-color: white;
+}
+.product-3 .p3-img{
+    margin-top: 40px;
+    margin-left: 0px;
+}
+.product-3 .p3-title{
+    padding-top: 74px;
+    padding-left: 28px;
+}
+.product-3 .p3-text{
+    width: 195px;
+    padding-top: 17px;
+    padding-left: 30px;
+    font-size: 13px;
+    color: #909090;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.product-3 .p3-price{
+    padding-top: 24px;
+    padding-left: 30px;
+    font-size: 16px;
+}
+.product-3 .p3-actions{
+    float: right;
+    padding-top: 5px;
+    padding-right: 17px;
+}
+.more-products{
+    height: 470px;
+    width: 51px;
+    float: left;
+    background-color: white;
+}
+.more-products #mp-img1{
+    padding-top: 110px;
+    padding-left: 20px;
+}
+.more-products #mp-img2{
+    padding-top: 208px;
+    padding-left: 20px;
+}
 /***********FOOTER***********/
+.footer{
+    margin-left: 365px;
+    height: 535px;
+    width: 1170px;
+    background-color: black;
+}
