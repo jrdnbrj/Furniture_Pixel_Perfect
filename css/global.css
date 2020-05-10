@@ -216,6 +216,30 @@
     overflow: hidden;
 }
 
+ul.banner li {
+    opacity: 0;
+    transition: opacity .5s;
+    position: absolute;
+    height: 340px;
+    width: 250px;
+    padding:50px;
+    background:#fff;
+    text-decoration: none;
+    list-style-type: none;
+}
+ul.banner li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+ul.banner li:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+.slider nav {
+    position:relative;
+    left:50px;
+}
+
+
+
 .right .right-1{
     height: 610px;
     width: 872px;
@@ -232,7 +256,7 @@
     margin-left: 35px;
 }
 .slider table{
-    margin: 1px 0px 0px 44px;
+    margin: 465px 0px 0px 44px;
     border-spacing: 16px;
 }
 .slider table tr{
@@ -242,6 +266,8 @@
 .slider th{
     border: 2px solid black;
     width: 63px;
+    text-decoration: none;
+    list-style-type: none;
 }
 .slider td{
     border: 1px solid gray;
